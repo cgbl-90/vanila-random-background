@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img {
+    width: 100px;
+}
+
+main,
+header,
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main {
+    height: 80vh;
+}
+
+header,
+footer {
+    height: 150px;
+    box-shadow: 1px 1px 3px #7b7a7a;
+}
+
+.container {
+    padding: 50px 100px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+button {
+    padding: 20px 40px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+}
+
+button:hover,
+button:focus {
+    font-size: 21px;
+    box-shadow: 1px 1px 10px white;
+}
